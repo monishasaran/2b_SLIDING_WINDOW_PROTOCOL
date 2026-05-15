@@ -1,5 +1,7 @@
 # 2b IMPLEMENTATION OF SLIDING WINDOW PROTOCOL
-## AIM
+## AIM:
+To implement the Sliding Window Protocol in order to achieve efficient and reliable data transmission between sender and receiver by controlling the flow of data frames and ensuring error handling through acknowledgements.
+
 ## ALGORITHM:
 1. Start the program.
 2. Get the frame size from the user
