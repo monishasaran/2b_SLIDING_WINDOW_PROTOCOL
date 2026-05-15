@@ -47,6 +47,10 @@ s.close()
 ```
 ## OUPUT:
 ## SERVER:
+<img width="800" height="261" alt="Screenshot 2026-05-15 134853" src="https://github.com/user-attachments/assets/acd5173a-c93a-465b-8d74-9d7c52eae3f5" />
+
 ## CLIENT:
+<img width="849" height="286" alt="Screenshot 2026-05-15 134841" src="https://github.com/user-attachments/assets/f18e3cbb-5aa5-4baf-a77d-db0dbdbadcab" />
+
 ## RESULT
 Thus, python program to perform stop and wait protocol was successfully executed
