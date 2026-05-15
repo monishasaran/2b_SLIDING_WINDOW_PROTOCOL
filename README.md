@@ -21,9 +21,9 @@ while True:
  data = conn.recv(1024).decode() 
  if not data: 
   break 
-print("Frames received:", data) 
-ack = "ACK for " + data 
-conn.send(ack.encode()) 
+ print("Frames received:", data) 
+ ack = "ACK for " + data 
+ conn.send(ack.encode()) 
 conn.close()
 ```
 ## CLIENT:
@@ -36,13 +36,13 @@ w = int(input("Enter window size: "))
 frames = list(range(1, n+1)) 
 i = 0 
 while i < n: 
-send_frames = frames[i:i+w] 
-msg = " ".join(map(str, send_frames)) 
-print("Sending frames:", msg) 
-s.send(msg.encode()) 
-ack = s.recv(1024).decode() 
-print("Received:", ack) 
-i += w 
+ send_frames = frames[i:i+w] 
+ msg = " ".join(map(str, send_frames)) 
+ print("Sending frames:", msg) 
+ s.send(msg.encode()) 
+ ack = s.recv(1024).decode() 
+ print("Received:", ack) 
+ i += w 
 s.close()
 ```
 ## OUPUT:
